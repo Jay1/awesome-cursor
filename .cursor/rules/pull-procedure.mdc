@@ -1,0 +1,61 @@
+---
+alwaysApply: true
+title: README Auto-Generation, Upstream Pull Protection, and No Legacy Meta Files
+description: This rule ensures that README.md is auto-generated, upstream pull protection, and no legacy meta files are present.
+---
+
+# README Auto-Generation, Upstream Pull Protection, and No Legacy Meta Files
+
+KEYWORDS: README, auto-generated, upstream, pull, protect, regenerate, script, instructions, prompts, chatmodes, CODE_OF_CONDUCT.md, CONTRIBUTING.md, LICENSE, SECURITY.md, SUPPORT.md, update-readme.js, delete, Cursor
+
+- README.md is auto-generated. Do not edit manually.
+- To update README.md, run: node scripts/update-readme.js
+- Only scripts/update-readme.js is authoritative. If update-readme.js appears at the root after an upstream pull or merge, it must be deleted immediately.
+- After pulling from upstream, always run the update script to regenerate README.md.
+- Any changes in instructions/, prompts/, or chatmodes/ require regenerating README.md.
+- Manual edits to README.md will be overwritten.
+- This rule must be enforced on every upstream pull and before any commit affecting documentation tables.
+
+## No Legacy Meta Files
+
+- The following files must NOT exist in this repository: CODE_OF_CONDUCT.md, CONTRIBUTING.md, LICENSE, SECURITY.md, SUPPORT.md, update-readme.js
+- If any of these files are reintroduced by an upstream pull or merge, they must be deleted immediately.
+- This rule must be enforced after every upstream update or merge.
+- Document this policy in project onboarding and maintenance documentation.
+
+## Code Review and Contribution Requirements
+
+When performing a code review:
+
+- Validate that there are changes in the `README.md` file that match the changes in the pull request. If there are no changes, or if the changes do not match, then the pull request is not ready to be merged.
+- Ensure that the values in the front matter are wrapped in single quotes.
+- Ensure that the `description` field in the front matter is not empty.
+- For `.instructions.md` files, ensure there is an `applyTo` property in the front matter that specifies the file or files to which the instructions apply.
+
+## Pull Request Checklist
+
+- [ ] I have read and followed the CONTRIBUTING.md guidelines.
+- [ ] My contribution adds a new instruction, prompt, or chat mode file in the correct directory.
+- [ ] The file follows the required naming convention.
+- [ ] The content is clearly structured and follows the example format.
+- [ ] I have tested my instructions, prompt, or chat mode with GitHub Copilot.
+- [ ] I have run `node update-readme.js` and verified that `README.md` is up to date.
+
+### Pull Request Description
+
+Briefly describe your contribution and its purpose. Include any relevant context or usage notes.
+
+### Type of Contribution
+
+- [ ] New instruction file.
+- [ ] New prompt file.
+- [ ] New chat mode file.
+- [ ] Other (please specify):
+
+### Additional Notes
+
+Add any additional information or context for reviewers here.
+
+By submitting this pull request, you confirm that your contribution abides by the Code of Conduct and will be licensed under the MIT License.
+
+By submitting this pull request, you confirm that your contribution abides by the Code of Conduct and will be licensed under the MIT License.
