@@ -19,6 +19,21 @@ function extractMeta(filePath) {
   const lines = content.split('\n');
   let name = path.basename(filePath);
   let desc = '';
+  // Parse YAML frontmatter if present
+  if (lines[0].trim() === '---') {
+    let i = 1;
+    while (i < lines.length && lines[i].trim() !== '---') {
+      const line = lines[i];
+      const match = line.match(/^description:\s*['"]?(.+?)['"]?$/);
+      if (match) {
+        desc = match[1].trim();
+      }
+      i++;
+    }
+    // Move i past the closing ---
+    while (i < lines.length && lines[i].trim() !== '' && lines[i].trim() === '---') i++;
+  }
+  // Fallback: use first heading and first non-heading, non-image line
   for (let line of lines) {
     if (line.startsWith('#')) {
       name = line.replace(/^#+\s*/, '').trim();
