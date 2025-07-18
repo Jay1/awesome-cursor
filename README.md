@@ -7,139 +7,141 @@ This README is auto-generated. Do not edit manually. To update, run scripts/upda
 
 | Name | Description | File Path |
 |------|-------------|-----------|
-| AI Prompt Engineering & Safety Best Practices | Best practices for AI prompt engineering, safety, bias mitigation, responsible AI usage | instructions/ai-prompt-engineering-safety-best-practices.instructions.md |
-| Angular Development Instructions | Angular coding standards and best practices | instructions/angular.instructions.md |
-| ASP.NET REST API Development | REST API guidelines for ASP.NET | instructions/aspnet-rest-apis.instructions.md |
-| Azure Functions Typescript | TypeScript patterns for Azure Functions | instructions/azure-functions-typescript.instructions.md |
-| Bicep Code Best Practices | Infrastructure as Code with Bicep | instructions/bicep-code-best-practices.instructions.md |
-| Blazor | Blazor component and application patterns | instructions/blazor.instructions.md |
-| Cmake Vcpkg | C++ project configuration and package management | instructions/cmake-vcpkg.instructions.md |
-| Containerization & Docker Best Practices | Docker image/container best practices | instructions/containerization-docker-best-practices.instructions.md |
-| Copilot Process tracking Instructions | Copilot process tracking and interaction shaping | instructions/copilot-thought-logging.instructions.md |
-| C# Development | C# application guidelines | instructions/csharp.instructions.md |
-| DevOps Core Principles | DevOps principles, CALMS, DORA metrics | instructions/devops-core-principles.instructions.md |
-| DDD Systems & .NET Guidelines | DDD and .NET architecture guidelines | instructions/dotnet-architecture-good-practices.instructions.md |
-| .NET MAUI | .NET MAUI component and application patterns | instructions/dotnet-maui.instructions.md |
-| Genaiscript | AI-powered script generation guidelines | instructions/genaiscript.instructions.md |
-| Generate Modern Terraform Code For Azure | Terraform code generation for Azure | instructions/generate-modern-terraform-code-for-azure.instructions.md |
-| Gilfoyle Code Review Instructions | Gilfoyle-style code review | instructions/gilfoyle-code-review.instructions.md |
-| GitHub Actions CI/CD Best Practices | GitHub Actions CI/CD pipeline best practices | instructions/github-actions-ci-cd-best-practices.instructions.md |
-| Go Development Instructions | Go code idioms and standards | instructions/go.instructions.md |
-| Java Development | Java application guidelines | instructions/java.instructions.md |
-| Joyride User Script Project Assistant | Joyride User Script project automation | instructions/joyride-user-project.instructions.md |
-| Joyride Workspace Automation Assistant | Joyride Workspace automation | instructions/joyride-workspace-automation.instructions.md |
-| Kubernetes Deployment Best Practices | Kubernetes deployment and management best practices | instructions/kubernetes-deployment-best-practices.instructions.md |
-| Guidance for Localization | Markdown localization guidelines | instructions/localization.instructions.md |
-| Markdown | Documentation/content creation standards | instructions/markdown.instructions.md |
-| Memory Bank | Bank coding standards and best practices | instructions/memory-bank.instructions.md |
-| MS-SQL DBA Chat Mode Instructions | MS-SQL DBA chat mode customization | instructions/ms-sql-dba.instructions.md |
-| Next.js + Tailwind Development Instructions | Next.js + Tailwind standards | instructions/nextjs-tailwind.instructions.md |
-| Code Generation Guidelines | Node.js/JavaScript/Vitest guidelines | instructions/nodejs-javascript-vitest.instructions.md |
-| Performance Optimization Best Practices | Performance optimization for all stacks | instructions/performance-optimization.instructions.md |
-| Playwright Typescript | Playwright test generation | instructions/playwright-typescript.instructions.md |
-| Power Platform Connectors Schema Development | Power Platform Custom Connectors guidelines | instructions/power-platform-connector.instructions.md |
-| PowerShell Cmdlet Development Guidelines | PowerShell cmdlet/scripting best practices | instructions/powershell.instructions.md |
-| Python Coding Conventions | Python coding conventions | instructions/python.instructions.md |
-| Quarkus MCP Server | Quarkus MCP Server SSE standards | instructions/quarkus-mcp-server-sse.instructions.md |
-| Quarkus | Quarkus development standards | instructions/quarkus.instructions.md |
-| ReactJS Development Instructions | ReactJS standards and best practices | instructions/reactjs.instructions.md |
-| Ruby on Rails | Ruby on Rails conventions | instructions/ruby-on-rails.instructions.md |
-| Secure Coding and OWASP Guidelines | Secure coding, OWASP Top 10 | instructions/security-and-owasp.instructions.md |
-| Self-explanatory Code Commenting | Self-explanatory code commenting | instructions/self-explanatory-code-commenting.instructions.md |
-| Spec Driven Workflow v1 | Specification-driven workflow | instructions/spec-driven-workflow-v1.instructions.md |
-| Spring Boot Development | Spring Boot application guidelines | instructions/springboot.instructions.md |
-| SQL Development | SQL/stored procedure generation | instructions/sql-sp-generation.instructions.md |
-| Taming Copilot | Copilot control and restriction | instructions/taming-copilot.instructions.md |
-| TanStack Start with Shadcn/ui Guide | TanStack Start application guidelines | instructions/tanstack-start-shadcn-tailwind.instructions.md |
-| VueJS 3 Development Instructions | VueJS 3 standards and best practices | instructions/vuejs3.instructions.md |
+| ai-prompt-engineering-safety-best-practices.instructions.md | --- | instructions/ai-prompt-engineering-safety-best-practices.instructions.md |
+| angular.instructions.md | --- | instructions/angular.instructions.md |
+| aspnet-rest-apis.instructions.md | --- | instructions/aspnet-rest-apis.instructions.md |
+| azure-functions-typescript.instructions.md | --- | instructions/azure-functions-typescript.instructions.md |
+| bicep-code-best-practices.instructions.md | --- | instructions/bicep-code-best-practices.instructions.md |
+| blazor.instructions.md | --- | instructions/blazor.instructions.md |
+| cmake-vcpkg.instructions.md | --- | instructions/cmake-vcpkg.instructions.md |
+| containerization-docker-best-practices.instructions.md | --- | instructions/containerization-docker-best-practices.instructions.md |
+| copilot-thought-logging.instructions.md | --- | instructions/copilot-thought-logging.instructions.md |
+| csharp.instructions.md | --- | instructions/csharp.instructions.md |
+| devops-core-principles.instructions.md | --- | instructions/devops-core-principles.instructions.md |
+| dotnet-architecture-good-practices.instructions.md | --- | instructions/dotnet-architecture-good-practices.instructions.md |
+| dotnet-maui.instructions.md | --- | instructions/dotnet-maui.instructions.md |
+| genaiscript.instructions.md | --- | instructions/genaiscript.instructions.md |
+| generate-modern-terraform-code-for-azure.instructions.md | --- | instructions/generate-modern-terraform-code-for-azure.instructions.md |
+| gilfoyle-code-review.instructions.md | --- | instructions/gilfoyle-code-review.instructions.md |
+| github-actions-ci-cd-best-practices.instructions.md | --- | instructions/github-actions-ci-cd-best-practices.instructions.md |
+| go.instructions.md | --- | instructions/go.instructions.md |
+| java.instructions.md | --- | instructions/java.instructions.md |
+| joyride-user-project.instructions.md | --- | instructions/joyride-user-project.instructions.md |
+| joyride-workspace-automation.instructions.md | --- | instructions/joyride-workspace-automation.instructions.md |
+| kubernetes-deployment-best-practices.instructions.md | --- | instructions/kubernetes-deployment-best-practices.instructions.md |
+| localization.instructions.md | --- | instructions/localization.instructions.md |
+| markdown.instructions.md | --- | instructions/markdown.instructions.md |
+| memory-bank.instructions.md | --- | instructions/memory-bank.instructions.md |
+| ms-sql-dba.instructions.md | --- | instructions/ms-sql-dba.instructions.md |
+| nextjs-tailwind.instructions.md | --- | instructions/nextjs-tailwind.instructions.md |
+| nodejs-javascript-vitest.instructions.md | --- | instructions/nodejs-javascript-vitest.instructions.md |
+| performance-optimization.instructions.md | --- | instructions/performance-optimization.instructions.md |
+| playwright-typescript.instructions.md | --- | instructions/playwright-typescript.instructions.md |
+| power-platform-connector.instructions.md | --- | instructions/power-platform-connector.instructions.md |
+| powershell.instructions.md | --- | instructions/powershell.instructions.md |
+| python.instructions.md | --- | instructions/python.instructions.md |
+| quarkus-mcp-server-sse.instructions.md | --- | instructions/quarkus-mcp-server-sse.instructions.md |
+| quarkus.instructions.md | --- | instructions/quarkus.instructions.md |
+| reactjs.instructions.md | --- | instructions/reactjs.instructions.md |
+| ruby-on-rails.instructions.md | --- | instructions/ruby-on-rails.instructions.md |
+| security-and-owasp.instructions.md | --- | instructions/security-and-owasp.instructions.md |
+| self-explanatory-code-commenting.instructions.md | --- | instructions/self-explanatory-code-commenting.instructions.md |
+| spec-driven-workflow-v1.instructions.md | --- | instructions/spec-driven-workflow-v1.instructions.md |
+| springboot.instructions.md | --- | instructions/springboot.instructions.md |
+| sql-sp-generation.instructions.md | --- | instructions/sql-sp-generation.instructions.md |
+| taming-copilot.instructions.md | --- | instructions/taming-copilot.instructions.md |
+| tanstack-start-shadcn-tailwind.instructions.md | --- | instructions/tanstack-start-shadcn-tailwind.instructions.md |
+| vuejs3.instructions.md | --- | instructions/vuejs3.instructions.md |
 
 ## Reusable Prompts
 
 | Name | Description | File Path |
 |------|-------------|-----------|
-| AI Prompt Engineering Safety Review & Improvement | Prompt safety review and improvement | prompts/ai-prompt-engineering-safety-review.prompt.md |
-| ASP.NET Minimal API with OpenAPI | ASP.NET Minimal API with OpenAPI docs | prompts/aspnet-minimal-api-openapi.prompt.md |
-| Azure Cost Optimize | Azure resource cost optimization | prompts/az-cost-optimize.prompt.md |
-| Azure Resource Health & Issue Diagnosis | Azure resource health and diagnosis | prompts/azure-resource-health-diagnose.prompt.md |
-| Comment Code Generate A Tutorial | Refactor Python script and generate tutorial | prompts/comment-code-generate-a-tutorial.prompt.md |
-| Create Architectural Decision Record | Create ADR document | prompts/create-architectural-decision-record.prompt.md |
-| Create GitHub Issue from Specification | Create GitHub Issue from specification | prompts/create-github-issue-feature-from-specification.prompt.md |
-| Create GitHub Issue from Implementation Plan | Create GitHub Issues from implementation plan | prompts/create-github-issues-feature-from-implementation-plan.prompt.md |
-| Create GitHub Issues for Unmet Specification | Create Issues for unmet requirements | prompts/create-github-issues-for-unmet-specification-requirements.prompt.md |
-| Create Implementation Plan | Create implementation plan file | prompts/create-implementation-plan.prompt.md |
-| Create LLMs.txt File | Create llms.txt from repo structure | prompts/create-llms.prompt.md |
-| Generate Standard OO Component Documentation | OO component documentation | prompts/create-oo-component-documentation.prompt.md |
-| Create Readme | Create README.md for project | prompts/create-readme.prompt.md |
-| Create Specification | Create new specification file | prompts/create-specification.prompt.md |
-| Create Spring Boot Java project | Spring Boot Java project skeleton | prompts/create-spring-boot-java-project.prompt.md |
-| Create Spring Boot Kotlin project | Spring Boot Kotlin project skeleton | prompts/create-spring-boot-kotlin-project.prompt.md |
-| C# Async Programming Best Practices | C# async programming best practices | prompts/csharp-async.prompt.md |
-| C# Documentation Best Practices | C# XML documentation best practices | prompts/csharp-docs.prompt.md |
-| MSTest Best Practices | MSTest unit testing best practices | prompts/csharp-mstest.prompt.md |
-| NUnit Best Practices | NUnit unit testing best practices | prompts/csharp-nunit.prompt.md |
-| TUnit Best Practices | TUnit unit testing best practices | prompts/csharp-tunit.prompt.md |
-| XUnit Best Practices | XUnit unit testing best practices | prompts/csharp-xunit.prompt.md |
-| .NET/C# Best Practices | .NET/C# code best practices | prompts/dotnet-best-practices.prompt.md |
-| .NET/C# Design Pattern Review | .NET/C# design pattern review | prompts/dotnet-design-pattern-review.prompt.md |
-| Entity Framework Core Best Practices | EF Core best practices | prompts/ef-core.prompt.md |
-| Product Manager Assistant | Feature identification/specification | prompts/gen-specs-as-issues.prompt.md |
-| Java Documentation Best Practices | Java Javadoc best practices | prompts/java-docs.prompt.md |
-| JUnit 5+ Best Practices | JUnit 5 unit testing best practices | prompts/java-junit.prompt.md |
-| Spring Boot Best Practices | Spring Boot development best practices | prompts/java-springboot.prompt.md |
-| Javascript Typescript Jest | JS/TS Jest testing best practices | prompts/javascript-typescript-jest.prompt.md |
-| Spring Boot with Kotlin Best Practices | Spring Boot + Kotlin best practices | prompts/kotlin-springboot.prompt.md |
-| Multi Stage Dockerfile | Multi-stage Dockerfile creation | prompts/multi-stage-dockerfile.prompt.md |
-| My Issues | List issues in current repo | prompts/my-issues.prompt.md |
-| My Pull Requests | List pull requests in current repo | prompts/my-pull-requests.prompt.md |
-| Next Intl Add Language | Add language to Next.js + next-intl | prompts/next-intl-add-language.prompt.md |
-| Review And Refactor | Review and refactor project code | prompts/review-and-refactor.prompt.md |
-| Suggest Awesome Copilot Chatmodes | Suggest relevant chatmode files | prompts/suggest-awesome-github-copilot-chatmodes.prompt.md |
-| Suggest Awesome Copilot Prompts | Suggest relevant prompt files | prompts/suggest-awesome-github-copilot-prompts.prompt.md |
-| Update AVM Modules in Bicep Files | Update AVM modules in Bicep | prompts/update-avm-modules-in-bicep.prompt.md |
-| Update Implementation Plan | Update implementation plan file | prompts/update-implementation-plan.prompt.md |
-| Update LLMs.txt File | Update llms.txt file | prompts/update-llms.prompt.md |
-| Update Markdown File Index | Update markdown file index/table | prompts/update-markdown-file-index.prompt.md |
-| Update OO Component Documentation | Update OO component documentation | prompts/update-oo-component-documentation.prompt.md |
-| Update Specification | Update specification file | prompts/update-specification.prompt.md |
+| ai-prompt-engineering-safety-review.prompt.md | --- | prompts/ai-prompt-engineering-safety-review.prompt.md |
+| aspnet-minimal-api-openapi.prompt.md | --- | prompts/aspnet-minimal-api-openapi.prompt.md |
+| az-cost-optimize.prompt.md | --- | prompts/az-cost-optimize.prompt.md |
+| azure-resource-health-diagnose.prompt.md | --- | prompts/azure-resource-health-diagnose.prompt.md |
+| comment-code-generate-a-tutorial.prompt.md | --- | prompts/comment-code-generate-a-tutorial.prompt.md |
+| create-architectural-decision-record.prompt.md | --- | prompts/create-architectural-decision-record.prompt.md |
+| create-github-issue-feature-from-specification.prompt.md | --- | prompts/create-github-issue-feature-from-specification.prompt.md |
+| create-github-issues-feature-from-implementation-plan.prompt.md | --- | prompts/create-github-issues-feature-from-implementation-plan.prompt.md |
+| create-github-issues-for-unmet-specification-requirements.prompt.md | --- | prompts/create-github-issues-for-unmet-specification-requirements.prompt.md |
+| create-implementation-plan.prompt.md | --- | prompts/create-implementation-plan.prompt.md |
+| create-llms.prompt.md | --- | prompts/create-llms.prompt.md |
+| create-oo-component-documentation.prompt.md | --- | prompts/create-oo-component-documentation.prompt.md |
+| create-readme.prompt.md | --- | prompts/create-readme.prompt.md |
+| create-specification.prompt.md | --- | prompts/create-specification.prompt.md |
+| create-spring-boot-java-project.prompt.md | --- | prompts/create-spring-boot-java-project.prompt.md |
+| create-spring-boot-kotlin-project.prompt.md | --- | prompts/create-spring-boot-kotlin-project.prompt.md |
+| csharp-async.prompt.md | --- | prompts/csharp-async.prompt.md |
+| csharp-docs.prompt.md | --- | prompts/csharp-docs.prompt.md |
+| csharp-mstest.prompt.md | --- | prompts/csharp-mstest.prompt.md |
+| csharp-nunit.prompt.md | --- | prompts/csharp-nunit.prompt.md |
+| csharp-tunit.prompt.md | --- | prompts/csharp-tunit.prompt.md |
+| csharp-xunit.prompt.md | --- | prompts/csharp-xunit.prompt.md |
+| dotnet-best-practices.prompt.md | --- | prompts/dotnet-best-practices.prompt.md |
+| dotnet-design-pattern-review.prompt.md | --- | prompts/dotnet-design-pattern-review.prompt.md |
+| ef-core.prompt.md | --- | prompts/ef-core.prompt.md |
+| gen-specs-as-issues.prompt.md | --- | prompts/gen-specs-as-issues.prompt.md |
+| java-docs.prompt.md | --- | prompts/java-docs.prompt.md |
+| java-junit.prompt.md | --- | prompts/java-junit.prompt.md |
+| java-springboot.prompt.md | --- | prompts/java-springboot.prompt.md |
+| javascript-typescript-jest.prompt.md | --- | prompts/javascript-typescript-jest.prompt.md |
+| kotlin-springboot.prompt.md | --- | prompts/kotlin-springboot.prompt.md |
+| multi-stage-dockerfile.prompt.md | --- | prompts/multi-stage-dockerfile.prompt.md |
+| my-issues.prompt.md | --- | prompts/my-issues.prompt.md |
+| my-pull-requests.prompt.md | --- | prompts/my-pull-requests.prompt.md |
+| next-intl-add-language.prompt.md | --- | prompts/next-intl-add-language.prompt.md |
+| review-and-refactor.prompt.md | --- | prompts/review-and-refactor.prompt.md |
+| suggest-awesome-github-copilot-chatmodes.prompt.md | --- | prompts/suggest-awesome-github-copilot-chatmodes.prompt.md |
+| suggest-awesome-github-copilot-prompts.prompt.md | --- | prompts/suggest-awesome-github-copilot-prompts.prompt.md |
+| update-avm-modules-in-bicep.prompt.md | --- | prompts/update-avm-modules-in-bicep.prompt.md |
+| update-implementation-plan.prompt.md | --- | prompts/update-implementation-plan.prompt.md |
+| update-llms.prompt.md | --- | prompts/update-llms.prompt.md |
+| update-markdown-file-index.prompt.md | --- | prompts/update-markdown-file-index.prompt.md |
+| update-oo-component-documentation.prompt.md | --- | prompts/update-oo-component-documentation.prompt.md |
+| update-specification.prompt.md | --- | prompts/update-specification.prompt.md |
 
 ## Custom Chat Modes
 
 | Name | Description | File Path |
 |------|-------------|-----------|
-| 4.1 Beast Mode | GPT 4.1 coding agent | chatmodes/4.1-Beast.chatmode.md |
-| Accessibility mode | Accessibility mode | chatmodes/accesibility.chatmode.md |
-| API Architect mode | API architect guidance | chatmodes/api-architect.chatmode.md |
-| Azure Principal Architect mode | Azure Principal Architect guidance | chatmodes/azure-principal-architect.chatmode.md |
-| Azure SaaS Architect mode | Azure SaaS Architect guidance | chatmodes/azure-saas-architect.chatmode.md |
-| Azure AVM Bicep mode | Azure IaC in Bicep with AVM | chatmodes/azure-verified-modules-bicep.chatmode.md |
-| Azure AVM Terraform mode | Azure IaC in Terraform with AVM | chatmodes/azure-verified-modules-terraform.chatmode.md |
-| Clojure Interactive Programming | Clojure REPL-first pair programming | chatmodes/clojure-interactive-programming.chatmode.md |
-| Critical thinking mode | Critical thinking and solution validation | chatmodes/critical-thinking.chatmode.md |
-| C#/.NET Janitor | C#/.NET code janitorial tasks | chatmodes/csharp-dotnet-janitor.chatmode.md |
-| Debug Mode | Debug application and find bugs | chatmodes/debug.chatmode.md |
-| Demonstrate Understanding mode | Validate user understanding | chatmodes/demonstrate-understanding.chatmode.md |
-| Electron Code Review Mode | Electron/Angular/Native code review | chatmodes/electron-angular-native.chatmode.md |
-| Expert .NET software engineer mode | Expert .NET software engineering | chatmodes/expert-dotnet-software-engineer.chatmode.md |
-| Expert React Frontend Engineer Mode | Expert React frontend engineering | chatmodes/expert-react-frontend-engineer.chatmode.md |
-| Gilfoyle Code Review Mode | Gilfoyle-style code review | chatmodes/gilfoyle.chatmode.md |
-| Implementation Plan Generation Mode | Implementation plan generation | chatmodes/implementation-plan.chatmode.md |
-| Universal Janitor | Janitorial tasks for any codebase | chatmodes/janitor.chatmode.md |
-| Mentor mode | Engineering mentorship | chatmodes/mentor.chatmode.md |
-| Meta Agentic Project Scaffold | Project workflow management | chatmodes/meta-agentic-project-scaffold.chatmode.md |
-| Microsoft Learn Contributor | Microsoft Learn documentation authoring | chatmodes/microsoft_learn_contributor.chatmode.md |
-| MS-SQL Database Administrator | MS SQL Server database admin | chatmodes/ms-sql-dba.chatmode.md |
-| Plan Mode | Strategic planning and architecture | chatmodes/plan.chatmode.md |
-| Planner Mode | Project planning and task breakdown | chatmodes/planner.chatmode.md |
-| Postgresql DBA | PostgreSQL DBA chat mode | chatmodes/postgresql-dba.chatmode.md |
-| Principal Software Engineer | Principal software engineering guidance | chatmodes/principal-software-engineer.chatmode.md |
-| Prompt Engineer | Prompt engineering guidance | chatmodes/prompt-engineer.chatmode.md |
-| Refine Issue | Issue refinement and clarification | chatmodes/refine-issue.chatmode.md |
-| Rust GPT-4.1 Beast Mode | Rust coding with GPT-4.1 | chatmodes/rust-gpt-4.1-beast-mode.chatmode.md |
-| Semantic Kernel .NET | Semantic Kernel for .NET | chatmodes/semantic-kernel-dotnet.chatmode.md |
-| Semantic Kernel Python | Semantic Kernel for Python | chatmodes/semantic-kernel-python.chatmode.md |
-| Software Engineer Agent v1 | Software engineering agent | chatmodes/software-engineer-agent-v1.chatmode.md |
-| Specification Mode | Specification-driven workflow | chatmodes/specification.chatmode.md |
-| Tech Debt Remediation Plan | Tech debt remediation planning | chatmodes/tech-debt-remediation-plan.chatmode.md |
-| Voidbeast GPT-4.1 Enhanced | Enhanced GPT-4.1 coding agent | chatmodes/voidbeast-gpt41enhanced.chatmode.md |
-| WG Code Alchemist | Code alchemy and transformation | chatmodes/wg-code-alchemist.chatmode.md |
-| WG Code Sentinel | Codebase monitoring and protection | chatmodes/wg-code-sentinel.chatmode.md |
+| 4.1-Beast.chatmode.md | --- | chatmodes/4.1-Beast.chatmode.md |
+| accesibility.chatmode.md | --- | chatmodes/accesibility.chatmode.md |
+| api-architect.chatmode.md | --- | chatmodes/api-architect.chatmode.md |
+| azure-principal-architect.chatmode.md | --- | chatmodes/azure-principal-architect.chatmode.md |
+| azure-saas-architect.chatmode.md | --- | chatmodes/azure-saas-architect.chatmode.md |
+| azure-verified-modules-bicep.chatmode.md | --- | chatmodes/azure-verified-modules-bicep.chatmode.md |
+| azure-verified-modules-terraform.chatmode.md | --- | chatmodes/azure-verified-modules-terraform.chatmode.md |
+| clojure-interactive-programming.chatmode.md | --- | chatmodes/clojure-interactive-programming.chatmode.md |
+| critical-thinking.chatmode.md | --- | chatmodes/critical-thinking.chatmode.md |
+| csharp-dotnet-janitor.chatmode.md | --- | chatmodes/csharp-dotnet-janitor.chatmode.md |
+| debug.chatmode.md | --- | chatmodes/debug.chatmode.md |
+| demonstrate-understanding.chatmode.md | --- | chatmodes/demonstrate-understanding.chatmode.md |
+| electron-angular-native.chatmode.md | --- | chatmodes/electron-angular-native.chatmode.md |
+| expert-dotnet-software-engineer.chatmode.md | --- | chatmodes/expert-dotnet-software-engineer.chatmode.md |
+| expert-react-frontend-engineer.chatmode.md | --- | chatmodes/expert-react-frontend-engineer.chatmode.md |
+| gilfoyle.chatmode.md | --- | chatmodes/gilfoyle.chatmode.md |
+| implementation-plan.chatmode.md | --- | chatmodes/implementation-plan.chatmode.md |
+| janitor.chatmode.md | --- | chatmodes/janitor.chatmode.md |
+| mentor.chatmode.md | --- | chatmodes/mentor.chatmode.md |
+| meta-agentic-project-scaffold.chatmode.md | --- | chatmodes/meta-agentic-project-scaffold.chatmode.md |
+| microsoft_learn_contributor.chatmode.md | --- | chatmodes/microsoft_learn_contributor.chatmode.md |
+| ms-sql-dba.chatmode.md | --- | chatmodes/ms-sql-dba.chatmode.md |
+| plan.chatmode.md | --- | chatmodes/plan.chatmode.md |
+| planner.chatmode.md | --- | chatmodes/planner.chatmode.md |
+| postgresql-dba.chatmode.md | --- | chatmodes/postgresql-dba.chatmode.md |
+| prd.chatmode.md | --- | chatmodes/prd.chatmode.md |
+| principal-software-engineer.chatmode.md | --- | chatmodes/principal-software-engineer.chatmode.md |
+| prompt-engineer.chatmode.md | --- | chatmodes/prompt-engineer.chatmode.md |
+| refine-issue.chatmode.md | --- | chatmodes/refine-issue.chatmode.md |
+| rust-gpt-4.1-beast-mode.chatmode.md | --- | chatmodes/rust-gpt-4.1-beast-mode.chatmode.md |
+| semantic-kernel-dotnet.chatmode.md | --- | chatmodes/semantic-kernel-dotnet.chatmode.md |
+| semantic-kernel-python.chatmode.md | --- | chatmodes/semantic-kernel-python.chatmode.md |
+| simple-app-idea-generator.chatmode.md | --- | chatmodes/simple-app-idea-generator.chatmode.md |
+| software-engineer-agent-v1.chatmode.md | --- | chatmodes/software-engineer-agent-v1.chatmode.md |
+| specification.chatmode.md | --- | chatmodes/specification.chatmode.md |
+| tech-debt-remediation-plan.chatmode.md | --- | chatmodes/tech-debt-remediation-plan.chatmode.md |
+| voidbeast-gpt41enhanced.chatmode.md | --- | chatmodes/voidbeast-gpt41enhanced.chatmode.md |
+| wg-code-alchemist.chatmode.md | --- | chatmodes/wg-code-alchemist.chatmode.md |
+| wg-code-sentinel.chatmode.md | --- | chatmodes/wg-code-sentinel.chatmode.md |
