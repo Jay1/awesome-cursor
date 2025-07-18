@@ -1,0 +1,56 @@
+# GitHub Push Preconditions: Line Endings and README Validation
+
+KEYWORDS: push, precondition, line endings, README, validation, workflow, check, fix-line-endings.sh, update-readme.js, CI, markdown, automation
+
+## Mandatory Preconditions Before Pushing to GitHub
+
+Before pushing any changes to the repository, you MUST ensure the following:
+
+### 1. Line Endings Check
+
+- All markdown files (`*.md`) must use LF (Unix) line endings.
+- The GitHub Actions workflow `.github/workflows/check-line-endings.yml` will fail the push if any markdown file contains CRLF (Windows) line endings.
+- To guarantee compliance, run the normalization script:
+
+```sh
+bash scripts/fix-line-endings.sh
+```
+
+- This script will convert all CRLF endings in markdown files to LF.
+- You must re-add and re-commit any files changed by this script before pushing.
+
+### 2. README Consistency Check
+
+- The `README.md` file is auto-generated and must always be up to date with the current state of the `instructions/`, `prompts/`, and `chatmodes/` directories.
+- The GitHub Actions workflow `.github/workflows/validate-readme.yml` will fail the push if `README.md` is not current or does not match the output of the update script.
+- To guarantee compliance, run the update script:
+
+```sh
+node scripts/update-readme.js
+```
+
+- This script will regenerate `README.md` based on the current project files.
+- You must re-add and re-commit `README.md` if it was changed by this script before pushing.
+
+### 3. Required Sequence Before Every Push
+
+1. Run `bash scripts/fix-line-endings.sh` to normalize markdown line endings.
+2. Run `node scripts/update-readme.js` to regenerate the README.
+3. Stage and commit any changes made by these scripts.
+4. Only then, push your changes to GitHub.
+
+### 4. Enforcement
+
+- These requirements are enforced by CI workflows and must be followed for every push and pull request.
+- Failure to comply will result in failed checks and blocked merges.
+
+### 5. Rationale
+
+- Consistent line endings prevent cross-platform issues and spurious diffs.
+- An up-to-date README ensures documentation is always accurate and discoverable.
+- Automation and pre-push discipline reduce CI failures and reviewer burden.
+description:
+globs:
+alwaysApply: false
+
+---
