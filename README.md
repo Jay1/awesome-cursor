@@ -1,7 +1,7 @@
 <!--
 This README is auto-generated. Do not edit manually. To update, run scripts/update-readme.js.
 -->
-# Awesome Copilot Toolkit Glossary
+# Awesome Prompts Toolkit Glossary | modified to be digestible by Cursor in a single file
 
 ## Custom Instructions
 

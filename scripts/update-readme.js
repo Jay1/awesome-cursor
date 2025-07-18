@@ -42,7 +42,7 @@ function makeTable(entries) {
 
 function main() {
   let out = '<!--\nThis README is auto-generated. Do not edit manually. To update, run scripts/update-readme.js.\n-->';
-  out += '\n# Awesome Copilot Toolkit Glossary\n';
+  out += '\n# Awesome Prompts Toolkit Glossary | modified to be digestible by Cursor in a single file\n';
   for (const section of SECTIONS) {
     out += `\n## ${section.label}\n\n`;
     const files = getMarkdownFiles(section.dir);
