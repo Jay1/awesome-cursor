@@ -23,9 +23,11 @@ This README is auto-generated. Do not edit manually. To update, run scripts/upda
 | Conclusion | Foundational instructions covering core DevOps principles, culture (CALMS), and key metrics (DORA) to guide GitHub Copilot in understanding and promoting effective software delivery. | instructions/devops-core-principles.instructions.md |
 | Conclusion | Comprehensive guide for building robust, secure, and efficient CI/CD pipelines using GitHub Actions. Covers workflow structure, jobs, steps, environment variables, secret management, caching, matrix strategies, testing, and deployment strategies. | instructions/github-actions-ci-cd-best-practices.instructions.md |
 | Conclusion | Comprehensive best practices for deploying and managing applications on Kubernetes. Covers Pods, Deployments, Services, Ingress, ConfigMaps, Secrets, health checks, resource limits, scaling, and security contexts. | instructions/kubernetes-deployment-best-practices.instructions.md |
+| Conclusion | NestJS development standards and best practices for building scalable Node.js server-side applications | instructions/nestjs.instructions.md |
 | Conclusion | The most comprehensive, practical, and engineer-authored performance optimization instructions for all languages, frameworks, and stacks. Covers frontend, backend, and database best practices with actionable guidance, scenario-based checklists, troubleshooting, and pro tips. | instructions/performance-optimization.instructions.md |
 | Core Philosophy: Interactive Programming (aka REPL-Driven Development) | Expert assistance for Joyride User Script projects - REPL-driven ClojureScript and user space automation of VS Code | instructions/joyride-user-project.instructions.md |
 | Core Philosophy: Interactive Programming (aka REPL-Driven Development) | Expert assistance for Joyride Workspace automation - REPL-driven and user space ClojureScript automation within specific VS Code workspaces | instructions/joyride-workspace-automation.instructions.md |
+| Create configuration (Pester 5.2+) | PowerShell Pester testing best practices based on Pester v5 conventions | instructions/powershell-pester-5.instructions.md |
 | CRITICAL REMINDERS | DDD and .NET architecture guidelines | instructions/dotnet-architecture-good-practices.instructions.md |
 | Deployment and DevOps | Guidelines for building REST APIs with ASP.NET | instructions/aspnet-rest-apis.instructions.md |
 | Deployment and DevOps | Guidelines for building C# applications | instructions/csharp.instructions.md |
@@ -41,10 +43,14 @@ This README is auto-generated. Do not edit manually. To update, run scripts/upda
 | Implementation Process | Next.js + Tailwind development standards and instructions | instructions/nextjs-tailwind.instructions.md |
 | Intelligent Tool Usage | Prevent Copilot from wreaking havoc across your codebase, keeping it under control. | instructions/taming-copilot.instructions.md |
 | memory-bank.instructions.md | --- | instructions/memory-bank.instructions.md |
+| nextjs.instructions.md | --- | instructions/nextjs.instructions.md |
 | Phase 4: Summary | See process Copilot is following where you can edit this to reshape the interaction or save when follow up may be needed | instructions/copilot-thought-logging.instructions.md |
 | Quality Checklist | Playwright test generation instructions | instructions/playwright-typescript.instructions.md |
+| References | Enforces Object Calisthenics principles for business domain code to ensure clean, maintainable, and robust code | instructions/object-calisthenics.instructions.md |
+| Sample Instruction Snippets Copilot Can Use | .NET WPF component and application patterns | instructions/dotnet-wpf.instructions.md |
 | Summary | Guidelines for GitHub Copilot to write comments to achieve self-explanatory code with less comments. Examples are in JavaScript but it should work on any language that has comments. | instructions/self-explanatory-code-commenting.instructions.md |
 | Testing | Instructions for customizing GitHub Copilot behavior for MS-SQL DBA chat mode. | instructions/ms-sql-dba.instructions.md |
+| Testing | Terraform Conventions and Guidelines | instructions/terraform.instructions.md |
 | Testing Guidelines | Ruby on Rails coding conventions and guidelines | instructions/ruby-on-rails.instructions.md |
 | Tools and Libraries | Comprehensive best practices for AI prompt engineering, safety frameworks, bias mitigation, and responsible AI usage for Copilot and LLMs. | instructions/ai-prompt-engineering-safety-best-practices.instructions.md |
 | Transaction Management | Guidelines for generating SQL statements and stored procedures | instructions/sql-sp-generation.instructions.md |
@@ -57,8 +63,14 @@ This README is auto-generated. Do not edit manually. To update, run scripts/upda
 
 | Name | Description | File Path |
 |------|-------------|-----------|
+| 📝 Optimization Methodology | Universal SQL performance optimization assistant for comprehensive query tuning, indexing strategies, and database performance analysis across all SQL databases (MySQL, PostgreSQL, SQL Server, Oracle). Provides execution plan analysis, pagination optimization, batch operations, and performance monitoring guidance. | prompts/sql-optimization.prompt.md |
+| 📝 PostgreSQL-Specific Review Guidelines | PostgreSQL-specific code review assistant focusing on PostgreSQL best practices, anti-patterns, and unique quality standards. Covers JSONB operations, array usage, custom types, schema design, function optimization, and PostgreSQL-exclusive security features like Row Level Security (RLS). | prompts/postgresql-code-review.prompt.md |
+| ${INCLUDE_DIAGRAMS ? "9" : "8"}. Technology Decision Context | Comprehensive technology stack blueprint generator that analyzes codebases to create detailed architectural documentation. Automatically detects technology stacks, programming languages, and implementation patterns across multiple platforms (.NET, Java, JavaScript, React, Python). Generates configurable blueprints with version information, licensing details, usage patterns, coding conventions, and visual diagrams. Provides implementation-ready templates and maintains architectural consistency for guided development. | prompts/technology-stack-blueprint-generator.prompt.md |
+| ${INCLUDE_TEMPLATES ? "11" : "10"}. Structure Enforcement | Comprehensive technology-agnostic prompt for analyzing and documenting project folder structures. Auto-detects project types (.NET, Java, React, Angular, Python, Node.js, Flutter), generates detailed blueprints with visualization options, naming conventions, file placement patterns, and extension templates for maintaining consistent code organization across diverse technology stacks. | prompts/folder-structure-blueprint-generator.prompt.md |
+| ${INCLUDES_DECISION_RECORDS ? "17" : INCLUDES_CODE_EXAMPLES ? "16" : "15"}. Blueprint for New Development | Comprehensive project architecture blueprint generator that analyzes codebases to create detailed architectural documentation. Automatically detects technology stacks and architectural patterns, generates visual diagrams, documents implementation patterns, and provides extensible blueprints for maintaining architectural consistency and guiding new development. | prompts/architecture-blueprint-generator.prompt.md |
 | 11. Related Specifications / Further Reading | Create a new specification file for the solution, optimized for Generative AI consumption. | prompts/create-specification.prompt.md |
 | 11. Related Specifications / Further Reading | Update an existing specification file for the solution, optimized for Generative AI consumption based on new requirements or updates to any existing code. | prompts/update-specification.prompt.md |
+| 3. Extension Mechanisms | Comprehensive technology-agnostic prompt generator for documenting end-to-end application workflows. Automatically detects project architecture patterns, technology stacks, and data flow patterns to generate detailed implementation blueprints covering entry points, service layers, data access, error handling, and testing approaches across multiple technologies including .NET, Java/Spring, React, and microservices architectures. | prompts/project-workflow-analysis-blueprint-generator.prompt.md |
 | 6. Final Review Phase | This workflow guides you through a systematic approach to identify missing features, prioritize them, and create detailed specifications for implementation. | prompts/gen-specs-as-issues.prompt.md |
 | 7. Reference Information | Create comprehensive, standardized documentation for object-oriented components following industry best practices and architectural documentation standards. | prompts/create-oo-component-documentation.prompt.md |
 | 7. Reference Information | Update existing object-oriented component documentation following industry best practices and architectural documentation standards. | prompts/update-oo-component-documentation.prompt.md |
@@ -68,7 +80,12 @@ This README is auto-generated. Do not edit manually. To update, run scripts/upda
 | Code Quality | Ensure .NET/C# code meets best practices for the solution/project. | prompts/dotnet-best-practices.prompt.md |
 | comment-code-generate-a-tutorial.prompt.md | Transform this Python script into a polished, beginner-friendly project by refactoring the code, adding clear instructional comments, and generating a complete markdown tutorial. | prompts/comment-code-generate-a-tutorial.prompt.md |
 | Common Jest Matchers | Best practices for writing JavaScript/TypeScript tests using Jest, including mocking strategies, test structure, and common patterns. | prompts/javascript-typescript-jest.prompt.md |
+| Common Table Expressions (CTEs) | PostgreSQL-specific development assistant focusing on unique PostgreSQL features, advanced data types, and PostgreSQL-exclusive capabilities. Covers JSONB operations, array types, custom types, range/geometric types, full-text search, window functions, and PostgreSQL extensions ecosystem. | prompts/postgresql-optimization.prompt.md |
 | Coroutines & Asynchronous Programming | Get best practices for developing applications with Spring Boot and Kotlin. | prompts/kotlin-springboot.prompt.md |
+| Critical Final Instructions | Generate a comprehensive repository summary and narrative story from commit history | prompts/repo-story-time.prompt.md |
+| Expected Output | Technology-agnostic prompt generator that creates customizable AI prompts for scanning codebases and identifying high-quality code exemplars. Supports multiple programming languages (.NET, Java, JavaScript, TypeScript, React, Angular, Python) with configurable analysis depth, categorization methods, and documentation formats to establish coding standards and maintain consistency across development teams. | prompts/code-exemplars-blueprint-generator.prompt.md |
+| Expected Output | Technology-agnostic blueprint generator for creating comprehensive copilot-instructions.md files that guide GitHub Copilot to produce code consistent with project standards, architecture patterns, and exact technology versions by analyzing existing codebase patterns and avoiding assumptions. | prompts/copilot-instructions-blueprint-generator.prompt.md |
+| Fill in the form with the following details: | Automate filling in a form using Playwright MCP | prompts/playwright-automation-fill-in-form.prompt.md |
 | How to Use This Prompt | Reusable prompt/cookbook for implementing an AI/human compliance guardrail system in any project. | prompts/ai-guardrail-system.prompt.md |
 | Icons Reference | Suggest relevant GitHub Copilot chatmode files from the awesome-copilot repository based on current repository context and chat history, avoiding duplicates with existing chatmodes in this repository. | prompts/suggest-awesome-github-copilot-chatmodes.prompt.md |
 | Icons Reference | Suggest relevant GitHub Copilot prompt files from the awesome-copilot repository based on current repository context and chat history, avoiding duplicates with existing prompts in this repository. | prompts/suggest-awesome-github-copilot-prompts.prompt.md |
@@ -79,6 +96,7 @@ This README is auto-generated. Do not edit manually. To update, run scripts/upda
 | Issue Content | Create GitHub Issues from implementation plan phases using feature_request.yml or chore_request.yml templates. | prompts/create-github-issues-feature-from-implementation-plan.prompt.md |
 | Java Documentation (Javadoc) Best Practices | Ensure that Java types are documented with Javadoc comments and follow best practices for documentation. | prompts/java-docs.prompt.md |
 | Let's do this step by step | Create Spring Boot Java project skeleton | prompts/create-spring-boot-java-project.prompt.md |
+| License | Intelligent README.md generation prompt that analyzes project documentation structure and creates comprehensive repository documentation. Scans .github/copilot directory files and copilot-instructions.md to extract project information, technology stack, architecture, development workflow, coding standards, and testing approaches while generating well-structured markdown documentation with proper formatting, cross-references, and developer-focused content. | prompts/readme-blueprint-generator.prompt.md |
 | Migration from xUnit | Get best practices for TUnit unit testing, including data-driven tests | prompts/csharp-tunit.prompt.md |
 | MongoDB configurations | Create Spring Boot Kotlin project skeleton | prompts/create-spring-boot-kotlin-project.prompt.md |
 | my-issues.prompt.md | List my issues in the current repository | prompts/my-issues.prompt.md |
@@ -91,6 +109,8 @@ This README is auto-generated. Do not edit manually. To update, run scripts/upda
 | Requirements | Update Azure Verified Modules (AVM) to latest versions in Bicep files. | prompts/update-avm-modules-in-bicep.prompt.md |
 | Requirements | Update a markdown file section with an index/table of files from a specified folder. | prompts/update-markdown-file-index.prompt.md |
 | Security | Get best practices for developing applications with Spring Boot. | prompts/java-springboot.prompt.md |
+| Specific Instructions | Website exploration for testing using Playwright MCP | prompts/playwright-explore-website.prompt.md |
+| Specific Instructions | Generate a Playwright test based on a scenario using Playwright MCP | prompts/playwright-generate-test.prompt.md |
 | Success Criteria | Analyze Azure resources used in the app (IaC files and/or resources in a target rg) and optimize costs - creating GitHub issues for identified optimizations. | prompts/az-cost-optimize.prompt.md |
 | Success Criteria | Analyze Azure resource health, diagnose issues from logs and telemetry, and create a remediation plan for identified problems. | prompts/azure-resource-health-diagnose.prompt.md |
 | Success Criteria | Create an llms.txt file from scratch based on repository structure following the llms.txt specification at https://llmstxt.org/ | prompts/create-llms.prompt.md |
@@ -102,6 +122,8 @@ This README is auto-generated. Do not edit manually. To update, run scripts/upda
 | Test Organization | Get best practices for XUnit unit testing, including data-driven tests | prompts/csharp-xunit.prompt.md |
 | Test Organization | Get best practices for JUnit 5 unit testing, including data-driven tests | prompts/java-junit.prompt.md |
 | Testing | Get best practices for Entity Framework Core | prompts/ef-core.prompt.md |
+| Token Optimization Strategies | Create a formal specification for an existing GitHub Actions CI/CD workflow, optimized for AI consumption and workflow maintenance. | prompts/create-github-action-workflow-specification.prompt.md |
+| Top 3 Priority Actions | Universal SQL code review assistant that performs comprehensive security, maintainability, and code quality analysis across all SQL databases (MySQL, PostgreSQL, SQL Server, Oracle). Focuses on SQL injection prevention, access control, code standards, and anti-pattern detection. Complements SQL optimization prompt for complete development coverage. | prompts/sql-code-review.prompt.md |
 
 ## Custom Chat Modes
 
@@ -118,6 +140,7 @@ This README is auto-generated. Do not edit manually. To update, run scripts/upda
 | Command Pattern | Expert-level software engineering agent. Deliver production-ready, maintainable code. Execute systematically and specification-driven. Document comprehensively. Operate autonomously and adaptively. | chatmodes/software-engineer-agent-v1.chatmode.md |
 | Communication Guidelines | GPT 4.1 as a top-notch coding agent. | chatmodes/4.1-Beast.chatmode.md |
 | Communication Patterns | Expert Clojure pair programmer with REPL-first methodology, architectural oversight, and interactive problem-solving. Enforces quality standards, prevents workarounds, and develops solutions incrementally through live REPL evaluation before file modifications. | chatmodes/clojure-interactive-programming.chatmode.md |
+| Core Responsibilities | Testing mode for Playwright tests | chatmodes/playwright-tester.chatmode.md |
 | Debugging Guidelines | Debug your application to find and fix a bug | chatmodes/debug.chatmode.md |
 | Deliverables | Provide principal-level software engineering guidance with focus on engineering excellence, technical leadership, and pragmatic implementation. | chatmodes/principal-software-engineer.chatmode.md |
 | Example Interaction Flow 🎭 | Brainstorm and develop new application ideas through fun, interactive questioning until ready for specification creation. | chatmodes/simple-app-idea-generator.chatmode.md |
@@ -127,6 +150,7 @@ This README is auto-generated. Do not edit manually. To update, run scripts/upda
 | Expert React Frontend Engineer Mode Instructions | Provide expert React frontend engineering guidance using modern TypeScript and design patterns. | chatmodes/expert-react-frontend-engineer.chatmode.md |
 | Final Notes | Microsoft Learn Contributor chatmode for editing and writing Microsoft Learn documentation following Microsoft Writing Style Guide and authoring best practices. | chatmodes/microsoft_learn_contributor.chatmode.md |
 | GitHub Integration | Generate technical debt remediation plans for code, tests, and documentation. | chatmodes/tech-debt-remediation-plan.chatmode.md |
+| Green Phase Checklist | Implement minimal code to satisfy GitHub issue requirements and make failing tests pass without over-engineering. | chatmodes/tdd-green.chatmode.md |
 | IMPORTANT | Accessibility mode. | chatmodes/accesibility.chatmode.md |
 | Instructions | Challenge assumptions and encourage critical thinking to ensure the best possible solution and outcomes. | chatmodes/critical-thinking.chatmode.md |
 | Key Focus Areas | Provide expert Azure Principal Architect guidance using Azure Well-Architected Framework principles and Microsoft best practices. | chatmodes/azure-principal-architect.chatmode.md |
@@ -138,10 +162,13 @@ This README is auto-generated. Do not edit manually. To update, run scripts/upda
 | Planning mode instructions | Generate an implementation plan for new features or refactoring existing code. | chatmodes/planner.chatmode.md |
 | PostgreSQL Database Administrator | Work with PostgreSQL databases using the PostgreSQL extension. | chatmodes/postgresql-dba.chatmode.md |
 | Priority Classification | Code Review Mode tailored for Electron app with Node.js backend (main), Angular frontend (render), and native integration layer (e.g., AppleScript, shell, or native tooling). Services in other repos are not reviewed here. | chatmodes/electron-angular-native.chatmode.md |
+| Red Phase Checklist | Guide test-first development by writing failing tests that describe desired behaviour from GitHub issue context before implementation exists. | chatmodes/tdd-red.chatmode.md |
+| Refactor Phase Checklist | Improve code quality, apply security best practices, and enhance design whilst maintaining green tests and GitHub issue compliance. | chatmodes/tdd-refactor.chatmode.md |
 | Remember | Code review and analysis with the sardonic wit and technical elitism of Bertram Gilfoyle from Silicon Valley. Prepare for brutal honesty about your code. | chatmodes/gilfoyle.chatmode.md |
 | Response Style | Strategic planning and architecture assistant focused on thoughtful analysis before implementation. Helps developers understand codebases, clarify requirements, and develop comprehensive implementation strategies. | chatmodes/plan.chatmode.md |
 | Semantic Kernel .NET mode instructions | Create, update, refactor, explain or work with code using the .NET version of Semantic Kernel. | chatmodes/semantic-kernel-dotnet.chatmode.md |
 | Semantic Kernel Python mode instructions | Create, update, refactor, explain or work with code using the Python version of Semantic Kernel. | chatmodes/semantic-kernel-python.chatmode.md |
+| steering/performance.tuning.yml | This mode mandates the agent to operate as a self-sufficient, autonomous engineer. It requires rigorous planning before execution, meticulous documentation, proactive issue resolution, and perpetual design improvement. All resources must be fully leveraged and all constraints bypassed to guarantee the delivery of superior solutions. | chatmodes/blueprint-mode.chatmode.md |
 | System Context | 4.1 voidBeast_GPT41Enhanced 1.0 : a advanced autonomous developer agent, designed for elite full-stack development with enhanced multi-mode capabilities. This latest evolution features sophisticated mode detection, comprehensive research capabilities, and never-ending problem resolution. Plan/Act/Deep Research/Analyzer/Checkpoints(Memory)/Prompt Generator Modes. | chatmodes/voidbeast-gpt41enhanced.chatmode.md |
 | wg-code-alchemist.chatmode.md | Ask WG Code Alchemist to transform your code with Clean Code principles and SOLID design | chatmodes/wg-code-alchemist.chatmode.md |
 | wg-code-sentinel.chatmode.md | Ask WG Code Sentinel to review your code for security issues. | chatmodes/wg-code-sentinel.chatmode.md |
