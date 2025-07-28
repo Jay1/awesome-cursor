@@ -26,3 +26,5 @@
 *.ico binary
 *.zip binary
 *.pdf binary
+
+README.md merge=ours
